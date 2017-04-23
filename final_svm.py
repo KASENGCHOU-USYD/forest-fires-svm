@@ -87,7 +87,7 @@ print "MAD - training data: ", MADt, " RMSE - training data: ", RMSEt
 for key in param:
     print key
 
-'''
+
 lw = 2
 plt.plot(Yt_orig, color = 'darkorange', label = 'Testing target')
 plt.hold('on')
@@ -97,4 +97,3 @@ plt.ylabel('target')
 plt.title('Support Vector Regression')
 plt.legend()
 plt.show()
-'''
